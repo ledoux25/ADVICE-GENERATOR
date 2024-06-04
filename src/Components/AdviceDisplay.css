@@ -1,0 +1,61 @@
+.advice-container{
+    position: relative;
+    width: 530px;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 40px 35px;
+    gap: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.advice-container p{
+    font-size: 28px;
+    color: var(--pale-cyan);
+}
+.advice-container span{
+    color: var(--text);
+   letter-spacing: 4px;
+   font-size: 13px;
+}
+
+.advice-container button{
+    position: absolute;
+    border: none;
+    bottom: -11%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--text);
+    cursor:pointer;
+
+    transition: 0.2s;
+}
+
+.advice-container button:active{
+    width: 53px;
+    height: 53px;
+}
+
+.advice-container button:hover{
+    box-shadow: 0 0 18px 1px hsl(150, 100%, 66%);
+}
+.advice-container img{
+    padding: 15px 0;
+}
+
+@media (max-width:600px) {
+    .advice-container{
+        width: 350px;
+    }
+    .advice-container button{
+        bottom: -7.5%;
+    }
+    .advice-container button:active{
+        -webkit-tap-highlight-color: transparent;
+    }
+}

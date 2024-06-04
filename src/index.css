@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root{
+  --background :hsl(218, 23%, 16%);
+  --primary: hsl(217, 19%, 38%);
+  --secondary: hsl(217, 19%, 24%);
+  --text: hsl(150, 100%, 66%);
+  --pale-cyan:hsl(193, 38%, 86%);
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{min-height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
